@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 public class TaskManagerActivity extends Activity {
 	
-	protected Button addButton;
+
 	protected TextView tasksText;
 	
 	protected EditText taskNameText;
@@ -24,8 +24,8 @@ public class TaskManagerActivity extends Activity {
 
 	protected void setUpViews() {
 		
-		addButton = (Button)findViewById(R.id.btn_addTask); 
-		tasksText = (TextView)findViewById(R.id.txt_tasks);
+
+		tasksText = (TextView)findViewById(R.id.tasks_title);
 		
 		taskNameText = (EditText)findViewById(R.id.etv_taskName);
 		addTaskButton = (Button)findViewById(R.id.btn_addTasks);
